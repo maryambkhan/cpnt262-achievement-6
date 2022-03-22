@@ -1,24 +1,23 @@
 # cpnt262-achievement-6
 
-## Project setup
-```
-npm install
-```
+## Maryam Khan
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Vue Components
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### Code Journal
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- Yesterday when i was working in lab time i ran into an
+  error it was becouse of `eslint`. I asked for help 
+  and patrick helped me 
+- Sloution was installing eslint 
+  [eslint](https://eslint.vuejs.org/user-guide/#usage)
+  for me this one worked:
+     `npm install --save-dev eslint eslint-plugin-vue`
+- So today i started new project and already installed eslint 
+   i am hoping there is no problem.
+- Plan:
+  - Components:
+    - TheHeader
+    - TheNavBar
+    - MainContent
+    - TheFooter
