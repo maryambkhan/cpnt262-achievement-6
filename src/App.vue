@@ -62,6 +62,7 @@
 
 // imports 
 <script setup>
+import { computed } from 'vue';
 import TheHeader from "./components/TheHeader.vue";
 import PageHeading from "./components/PageHeading.vue";
 import HeroSection from "./components/HeroSection.vue";
@@ -71,21 +72,21 @@ import TheFooter from "./components/TheFooter.vue";
 const sectionTitle = "About";
 
 // shows list
-import { ref } from "vue";
-const shows = ref([
+
+const shows = [
   { name: "Friends" },
   { name: "Modern Family" },
   { name: "Life in Pieces" },
   { name: "Superstore" },
-]);
+];
 
 // movie list
-const movies = ref([
+const movies = [
   { name: "Bee Movie" },
   { name: "Scooby Dooby Doo" },
   { name: "Kungfu Panda" },
   { name: "Tom and Jerry" },
-]);
+];
 
 // hero section
 const heroImage = {
