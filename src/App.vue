@@ -18,7 +18,7 @@
   <!-- Section 1 -->
   <main>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mx-4">
-    <section class="flex flex-col bg-gray-200 rounded-sm py-4">
+    <section class="flex flex-col bg-gradient-to-r from-blue-400 via-emerald-600 to-pink-400 rounded-sm py-2">
       <header class="grid place-items-center text-center mx-1">
         <h2 class="text-black text-3xl md:text-4xl font-medium">TV SHOWS</h2>
       </header>
@@ -31,7 +31,7 @@
       </div>
     </section>
     <!--Section 2-->
-    <section class="flex flex-col bg-gray-200 rounded-sm py-4">
+    <section class="flex flex-col bg-gradient-to-r from-blue-400 via-emerald-600 to-pink-400 rounded-sm py-2">
       <header class="grid place-items-center text-center mx-1">
         <h2 class="text-black text-3xl md:text-4xl font-medium">
           Talking-Animal Movies
@@ -56,7 +56,6 @@
         </p>
       </template>
     </PageContent>
-  
   </main>
   <TheFooter :title="'&copy; Maryam Khan 2022'" />
 </template>
@@ -83,8 +82,8 @@ const shows = ref([
 // movie list
 const movies = ref([
   { name: "Bee Movie" },
-  { name: "Scoobi" },
-  { name: "Kugfu Panda" },
+  { name: "Scooby Dooby Doo" },
+  { name: "Kungfu Panda" },
   { name: "Tom and Jerry" },
 ]);
 
