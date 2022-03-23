@@ -28,4 +28,4 @@
   it was amazing.
 - I watched class video and followed the documents it helped.
 - I have got plan data right know on page will do some more page level styling
-  and try to use this : <img :src="cat.photo" :alt="cat.description" />
+  and try to use this : `<img :src="cat.photo" :alt="cat.description" />`
