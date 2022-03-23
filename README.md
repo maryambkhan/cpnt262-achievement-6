@@ -19,5 +19,13 @@
   - Components:
     - TheHeader
     - TheNavBar
-    - MainContent
+    - PageContent
+    - PageContentHeader
     - TheFooter
+- It was so good working in vue and using v-bind v-for and slot
+  it took me whole lot of time learn becouse i did not had enough 
+  practice before but after i inderstood why and how we use these
+  it was amazing.
+- I watched class video and followed the documents it helped.
+- I have got plan data right know on page will do some more page level styling
+  and try to use this : <img :src="cat.photo" :alt="cat.description" />
