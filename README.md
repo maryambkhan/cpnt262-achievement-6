@@ -4,6 +4,7 @@
 
 ## Vue Components
 
+- [GH repo](https://github.com/maryambkhan/cpnt262-achievement-6)
 ### Code Journal
 
 - Yesterday when i was working in lab time i ran into an
@@ -29,3 +30,12 @@
 - I watched class video and followed the documents it helped.
 - I have got plan data right know on page will do some more page level styling
   and try to use this : `<img :src="cat.photo" :alt="cat.description" />`
+- It was so much fun working today i saw what can do and what i need to to more
+  and working team was a learning process too.
+- I have added footer herosection image thats what i did in the morning too.
+  i did everything in steps started with simple compnents and then render them on 
+   html page and then applied props,slot and v-bind.
+
+### Attributions
+
+- [Pexel](https://www.pexels.com/photo/purple-fireworks-effect-1190298/)

@@ -46,10 +46,8 @@
             class="
               py-2
               px-3
-              bg-yellow-400
-              hover:bg-yellow-600
-              text-yellow-900
-              hover:text-yellow-800
+              bg-purple-400
+              hover:bg-purple-600
               rounded
               transition
               duration-300
@@ -61,10 +59,8 @@
             class="
               py-2
               px-3
-              bg-yellow-400
-              hover:bg-yellow-600
-              text-yellow-900
-              hover:text-yellow-800
+              bg-purple-400
+              hover:bg-purple-600
               rounded
               transition
               duration-300

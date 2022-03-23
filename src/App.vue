@@ -2,7 +2,7 @@
   <TheHeader />
   <!-- Page Header -->
   <PageHeading :title="'Entertainment'" />
-
+ <HeroSection :img="heroImage"/>
   <!--Main Content -->
   <PageContent>
     <template #content>
@@ -65,6 +65,7 @@
 <script setup>
 import TheHeader from "./components/TheHeader.vue";
 import PageHeading from "./components/PageHeading.vue";
+import HeroSection from "./components/HeroSection.vue";
 import PageContent from "./components/PageContent.vue";
 import TheFooter from "./components/TheFooter.vue";
 
@@ -86,4 +87,11 @@ const movies = ref([
   { name: "Kugfu Panda" },
   { name: "Tom and Jerry" },
 ]);
+
+// hero section
+const heroImage = {
+  url : "https://images.pexels.com/photos/1190298/pexels-photo-1190298.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+  alt: "Hero Image"
+}
+
 </script>
